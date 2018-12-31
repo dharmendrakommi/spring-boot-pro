@@ -1,0 +1,22 @@
+INSERT INTO roles(name) VALUES('ROLE_USER');
+INSERT INTO roles(name) VALUES('ROLE_PM');
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+
+
+http://localhost:8070/api/auth/signup
+
+{
+	"name":"dharma",
+	"username":"dharmendra",
+	"email":"dkommi@vsoftcorp.com",
+	"role":["user","pm"],
+	"password":"12345678"
+}
+
+
+http://localhost:8070/api/auth/signin
+
+{
+	"username":"dharmendra",
+	"password":"12345678"
+}
