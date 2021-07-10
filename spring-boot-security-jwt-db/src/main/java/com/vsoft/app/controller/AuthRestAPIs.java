@@ -34,6 +34,9 @@ import com.vsoft.app.security.jwt.JwtProvider;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthRestAPIs {
+	
+	
+	//test change
 
     @Autowired
     AuthenticationManager authenticationManager;
