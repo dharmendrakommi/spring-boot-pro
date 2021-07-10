@@ -36,7 +36,7 @@ import com.vsoft.app.security.jwt.JwtProvider;
 public class AuthRestAPIs {
 	
 	
-	//test change
+	//test change feture
 
     @Autowired
     AuthenticationManager authenticationManager;
